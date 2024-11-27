@@ -23,7 +23,7 @@ const Slide = () => {
 
     return (
         <>
-            <section className="mainSlider">
+            <section>
                 {slide.map((movie, index) => (
                     <div key={index} className="relative w-full h-[60vh] sm:h-[80vh]">
                         <Image
